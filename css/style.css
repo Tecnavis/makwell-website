@@ -1,15 +1,25 @@
 /****************************************TYPOGRAPHY ***************************************************/
+@font-face {
+    font-family: 'Hostilica Bold Italic';
+    src: url('path/to/Hostilica-BoldItalic.woff2') format('woff2'),
+         url('path/to/Hostilica-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Hostilica Bold Italic', sans-serif;
 	font-size: 14px;
 	color: #b8b5b5;
 }
+
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Hostilica Bold Italic', sans-serif;
 	color: rgb(31, 68, 37);
 	font-weight: 600;
 	text-transform: uppercase;
 }
+
 h1{
 	font-size: 3.998em;
 }
